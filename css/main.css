@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(./bkg-img.jpg) no-repeat;
+html{    background:url(../img/bkg-img.jpg) no-repeat;
   background-size: cover;
   height:100%;
 }
@@ -65,14 +65,14 @@ html{    background:url(./bkg-img.jpg) no-repeat;
 
 /* Icons ---------------------------------- */
 #result{
-	background-image: url(./dollar.svg);
+	background-image: url(../img/dollar.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #result:focus{
-	background-image: url(./dollar.svg);
+	background-image: url(../img/dollar.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -84,7 +84,7 @@ input:focus, textarea:focus {
 	background-color:white;
 }
 
-#button-blue{
+.btnConvert{
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
@@ -102,7 +102,7 @@ input:focus, textarea:focus {
   font-weight:700;
 }
 
-#button-blue:hover{
+.btnConvert:hover{
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
 }
